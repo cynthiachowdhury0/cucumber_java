@@ -24,8 +24,8 @@ steps:
    $payload = [System.Convert]::ToBase64String($bytes)
    
    $body = @{
-    'projectId' = '5447'
-    'testcycle' = '22590'
+    'projectId' = '5413'
+    'testcycle' = '22835'
     'result' = $payload
    }
    
